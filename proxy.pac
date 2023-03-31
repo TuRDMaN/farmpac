@@ -8,11 +8,11 @@ function FindProxyForURL(url, host) {
     var proxyvpn2 = "PROXY 192.168.1.36:8122";
     var proxyvpn3 = "PROXY redpill.online:8122";
     var proxyjoel = "PROXY 192.168.0.4:8124";
-    //var mattchain = proxypi+"; "+proxybiggie+"; "+proxydido+"; "+proxypine+"; "+proxyunraid+"; "+proxyvpn+"; DIRECT";
-    var mattchain = proxypi+"; "+proxypine+"; "+proxyjoel+"; "+proxybiggie+"; "+proxyunraid+"; DIRECT";
+    var mattchain = proxypi+"; "+proxypine+"; "+proxybiggie+"; "+proxyunraid+"; "+proxyjoel+"; "+proxyvpn+"; DIRECT";
+    //var mattchain = proxypi+"; "+proxypine+"; "+proxyjoel+"; "+proxybiggie+"; "+proxyunraid+"; DIRECT";
     //var mattchain = proxypi+"; "+proxypine+"; "+proxybiggie+"; "+proxyunraid+"; DIRECT";
     //var billchain = proxypine+"; "+proxyunraid+"; "+proxypi+"; "+proxybiggie+"; "+proxydido+"; "+proxyvpn+"; DIRECT";
-    var billchain = proxypine+"; "+proxypi+"; "+proxyjoel+"; "+proxyunraid+"; "+proxybiggie+"; DIRECT";
+    var billchain = proxypine+"; "+proxypi+"; "+proxyunraid+"; "+proxybiggie+"; "+proxyjoel+"; DIRECT";
     //var billchain = proxypine+"; "+proxypi+"; "+proxyunraid+"; "+proxybiggie+"; DIRECT";
     //var didochain = proxydido+"; "+proxypi+"; "+proxybiggie+"; "+proxypine+"; "+proxyunraid+"; "+proxyvpn+"; DIRECT";
     var joelchain = proxyjoel+"; "+proxypi+"; "+proxybiggie+"; "+proxypine+"; "+proxyunraid+"; DIRECT";
